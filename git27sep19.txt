@@ -1,0 +1,67 @@
+git
+
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+https://dzone.com/articles/top-20-git-commands-with-examples
+
+
+https://education.github.com/git-cheat-sheet-education.pdf
+
+
+sudo apt install git
+git init
+
+git config --global user.email "birju@cogmac.com"
+git config --global user.name "Birju"
+
+vim ~/.gitconfig
+git config --global core.editor "vim"   ## to make vim editor for git by default
+
+
+git add check_db_conn.sh            ## to commit file
+git commit --amend                     ## to change commited file
+git log                                         ## to get logs
+
+~/Desktop/work/devops/adroit_scripts/01aug16_logs$ git log
+
+
+
+
+date
+if [ $? -eq 0 ]; then
+    echo "Somecommand: success!"
+else
+    echo "Somecommand: failure!"
+fi
+
+
+echo "# abc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/birjuk7/abc.git
+git pull -u origin master
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/birjuk7/abc.git
+git push -u origin master
+
+to upload the docs
+git status
+git init
+git add .
+git status
+git commit -m "DDD"
+git remote add origin https://github.com/birjuk7/scripts_apr.git
+git push -u origin master
+git status
+
+
+
+To modify the uploaded file
+git init
+git add .
+git status
+git commit -m "DDD"
+git remote add origin https://github.com/birjuk7/txt.git
+git push -u origin master
+
