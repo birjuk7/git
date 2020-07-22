@@ -21,9 +21,25 @@ git add check_db_conn.sh            ## to commit file
 git commit --amend                     ## to change commited file
 git log                                         ## to get logs
 
-~/Desktop/work/devops/adroit_scripts/01aug16_logs$ git log
+----------------------------------------------------------------------------
 
 
+git add check_db_conn.sh            ## to commit file
+git commit --amend                     ## to change commited file
+git rm file_name.txt                    ## to remove files from git repo
+--------------------------------------------------------------------------------20jun2020
+git  log -p -n                               ## logs
+git diff --staged                          # working dir staged
+git log                                         ## to get logs
+git rm --cached wasted.html 
+git rm wasted.html
+git status -s
+git checkout master                 ## shift to master branch
+git branch testing                   ###create testing branch
+git checkout testing                ####shift to testing branch
+git stash                                ### changes will not reflect in master after this
+git stash pop                          ###  
+git revert commit_id                ### 
 
 
 date
