@@ -10,7 +10,7 @@ https://education.github.com/git-cheat-sheet-education.pdf
 sudo apt install git
 git init
 
-git config --global user.email "birju@cogmac.com"
+git config --global user.email "birjuk7@gmail.com"
 git config --global user.name "Birju"
 
 vim ~/.gitconfig
